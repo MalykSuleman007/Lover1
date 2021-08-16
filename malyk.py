@@ -26,7 +26,7 @@ try:
 except ImportError:
     os.system('pip2 install mechanize')
     time.sleep(1)
-    os.system('python2 ranamz.xo')
+    os.system('python2 malyk.xo')
     
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
@@ -218,7 +218,7 @@ def action():
 	    print
 	    psb (" This Tool has been successfully updated")
 	    time.sleep(2)
-	    os.system("python2 .ranamz.xo")
+	    os.system("python2 .malyk.xo")
 #	elif chb =='3':	
 #	    os.system('xdg-open https://www.facebook.com/101635275268527/posts/161507699281284/?app=fbl')
 #	    time.sleep(1)
